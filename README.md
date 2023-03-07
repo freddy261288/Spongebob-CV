@@ -1,2 +1,1 @@
-# Spongebob-CV
-My first github project :)
+Hello from github codespace 
