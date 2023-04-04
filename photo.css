@@ -1,0 +1,45 @@
+* {
+    font-family: "Open Sans";
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    height: 100%;
+  }
+  
+  body {
+    height: 100%;
+    background-color: #fffde7;
+  }
+  h1 {
+    font-family: "Peralta";
+  }
+  img {
+    width: 128px;
+    height: 128px;
+    border: 2px solid #000000;
+    border-radius: 100%;
+  }
+  .header {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    justify-content: end;
+    align-items: center;
+    border-bottom: 3px solid #000000;
+  }
+  
+  .header-text {
+    text-align: end;
+    margin: 16px;
+    padding: 16px;
+  }
+  @media (max-width: 600px) {
+    .header {
+      flex-direction: column-reverse;
+    }
+  
+    .header-text {
+      text-align: center;
+    }
+  }
